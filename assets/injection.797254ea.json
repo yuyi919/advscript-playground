@@ -1,0 +1,22 @@
+{
+  "scopeName": "todo-comment.injection",
+  "injectionSelector": [
+    "L:comment.line",
+    "L:comment.block",
+    "L:markup",
+    "L:entity.name.function.macro",
+    "L:string",
+    "L:string.entity.name.function.macro"
+  ],
+  "patterns": [
+    {
+      "include": "#todo-keyword"
+    }
+  ],
+  "repository": {
+    "todo-keyword": {
+      "match": "TODO",
+      "name": "keyword.todo"
+    }
+  }
+}
