@@ -1,0 +1,1 @@
+var r="Characters: \r\n - Foo (bar) display=!Foo index=1\r\n - 1小王a1 (bar, bar2, bar3) display=!Foo index=1\r\n\r\nMacros: \r\n - bar (1小王a1) foo\r\n\r\nHello: Bar!\r\n---\r\n[@Foo]bbbbar\r\n\r\n";export{r as default};
